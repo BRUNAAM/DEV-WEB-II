@@ -1,0 +1,19 @@
+:root {
+    --cor-rosa: #dc1499;
+    --cor-azul: #0000ff;
+    --largura-tela: 400px;
+}
+
+div {
+    height: 400px;
+    width: var(--largura-tela);
+    background-color: var(--cor-rosa);
+    transition: width 2s, height 2x, transform 2s;
+}
+
+div:hover {
+    height: 200px;
+    width: 200px;
+    transform: rotate(180deg);
+    background-color:aqua;
+}
